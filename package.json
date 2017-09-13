@@ -1,0 +1,29 @@
+{
+  "name": "express-logger",
+  "version": "0.0.1",
+  "description": "a module to log errors to console and a webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "express",
+    "errors",
+    "logging"
+  ],
+  "author": "Jacz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "btoa": "^1.1.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-ejs-layouts": "^2.3.1",
+    "node-fetch": "^1.7.3",
+    "socket.io": "^2.0.3"
+  }
+}
